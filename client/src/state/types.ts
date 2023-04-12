@@ -49,6 +49,7 @@ export interface GetProductsResponse {
 }
 
 export interface GetTransactionsResponse {
+  [key: string]: any;
   id: string;
   _id: string;
   __v: number;

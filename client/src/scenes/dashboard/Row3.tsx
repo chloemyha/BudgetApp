@@ -137,7 +137,7 @@ function Row3({ }: Props) {
                   <Grid container spacing={25}>
                     {transactionColumns.map((column) => (
                       <Grid item key={column.field} xs={column.flex}>
-                        <Box textAlign="left" padding="10px 20px" fontSize="14px" color="#ccc">{row[Integer.parseInt(column.field)]}</Box>
+                        <Box textAlign="left" padding="10px 20px" fontSize="14px" color="#ccc">{row[(column.field)]}</Box>
 
                       </Grid>
                     ))}
